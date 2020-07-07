@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="one">
+        <p id="two">
+            <span id="three">
+                INDIA
+            </span>
+          foul
+        </p>
+        COUNTRY
+    </div>
+    <div id="four">
+        <ul class="five">
+            <li class="six">CS</li>
+            <li class="six">iu</li>
+            <li class="six">gu</li>
+        </ul>
+        <button type="button" class="seven" onclick="myfunction()">CLICK ME</button>
+    </div>
+</body>
+<script>
+    function myfunction(){
+        document.getElementById("three").textContent="amit";
+    }
+</script> -->
+
+    <h1 id="id1">my heading one </h1>
+     <input type="button" value="hide text" onmouseover="document.getElementById('id1').style.visibility='hidden'" onmouseout="document.getElementById('id1').style.visibility='visible'"> 
+     <input type="button" value="show text" onmousedown="document.getElementById('id1').style.color='green'" onmouseup="document.getElementById('id1').style.color='pink'"> 
+     <br>
+     <br><br>
+    <P>enter your name</P>
+     <input type="text" id="fname" onchange="myfunction()" placeholder="ENTER NAME">
+     <input type="reset" value="amit">
+    </body>
+    <script>
+        function myfunction(){
+            var x=document.getElementById("fname");
+            x.value=x.value.toUpperCase();
+        }
+    </script>
+</html>

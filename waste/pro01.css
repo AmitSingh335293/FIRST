@@ -1,0 +1,7 @@
+body{ margin: 0; }
+ header{ background-color: cadetblue; padding: 10px; text-align: center;
+ }  
+ div.body{
+     border-left: 20px solid cadetblue; border-right: 20px solid cadetblue; 
+ }
+div.ull{margin: auto; width: 50%;}

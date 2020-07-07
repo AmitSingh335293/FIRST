@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+        function fun(){
+            var t2 = document.getElementById("t1").value;
+            var regx=/e00/g;
+            if(regx.test(t2))  alert("valid username");
+            else alert("invalid ");
+        }
+      </script>
+</head>
+<body>
+     <input type="text" id="t1"> username  <br><br>
+     <button onclick="fun()" type="submit">CLICK ME</button>
+</body>
+</html>

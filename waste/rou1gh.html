@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer>
+      function fun(){
+          var t2 = document.getElementById("t1");
+          var p2 = document.getElementById("p1");
+        if(t2.value.trim()=="" || p2.value.trim()=="")
+        { alert("invalid email or password"); 
+             t2.style.border="2px dotted green"
+               return false;}
+        else return true;
+      }
+    </script>
+</head>
+<body>
+    <form action="rough.html" onsubmit="  return fun()">
+     <input type="text" name="t1" id="t1">
+      <label for="t1" id="l2">USER NAME</label> <br>
+     <input type="password" name="p1" id="p1">
+      <label for="p1">password</label> <br>
+     <!-- <input type="email" name="e1" id="e1"> -->
+     <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
